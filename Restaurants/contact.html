@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="design.css">
+        <script src="func.js"></script>
+        <title>Arya Snacks-Contact Us</title>
+    </head>
+    <body onload="currentSlide(1)">
+
+     
+          <span class="logo"><img  src="images/logo.jpg" alt="logo" width="40px" height="45px"></span>  
+     
+        <a href="index.html"> <span class="title"><h1 >Arya Snacks</h1></span></a>
+            <div id="borderhead">
+            <div class="topnav">
+                <a class="active"href="contact.html">Contact US</a>
+                <a  href="feedback.html">Feedback</a>
+                <a  href="vvm.html">Virtual Visit</a>
+                <a  href="menu.html">Menu</a>
+                <a href="index.html">About Us</a>
+            </div>
+            </div>
+ <!-- Slideshow container -->
+ <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src=" img1.jpg"  width="100%" height="400px">
+      <a href="menu.html"><div class="text">ORDER NOW</div></a>
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="img2.jpeg" width="100%"  height="400px">
+     <a href="vvm.html"> <div class="text">Visit Us Once</div></a>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img3.jpeg"  width="100%" height="400px">
+     <a href="feedback.html"> <div class="text">Send us Feedbacks</div></a>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <h2 id="ptitle">Contact Us</h2>
+
+
+  
+    <form action="mailto:aryanbhavsar83@gmail.com" method="POST"enctype=”multipart/form-data”
+
+    name=”Email” >
+    <label for="name">Name:</label>
+<input type="text" class="formelements" placeholder="Enter Name" required>
+<br>
+<br>
+<label for="email">Your Email:</label>
+<input type="email" class="formelements" placeholder="Enter your Mail">
+<br>
+<br>
+<label for="textarea">Your Message:</label><br>
+<textarea name="textarea" id="textarea" cols="25" rows="10" required></textarea>
+<br>
+<br>
+<input id="subbtn" type="submit" value="SUBMIT"  onclick="alert('Thank You for Contacting US')">
+<br>
+
+    </form>
+    <br><br>
+    <div id="elink" ><a href="index.html" ><h3>Back To Homepage</h3></a></div>
+
+<hr>
+    <footer >
+      <div class="foot">
+      <div class="sidefoot" >
+        <a href="index.html">Home</a><br><br>
+        <a href="menu.html">Menu</a><br><br>
+        <a href="vvm.html">Visit Us!</a><br><br>
+        <a href="feedback.html">Rate Us!</a><br><br>
+        <a href="contact.html">Contact US</a><br><br>
+          OR <br>
+          <p><b>Call:</b> <em>+91 xxxxxxxxxx</em></p>
+
+      </div>
+      
+      </div>
+         <div class="cpyrgt">
+           <p><em>Copyright, All Rights Reserve &copy 2021</em></p>
+     
+    </div>
+    </footer>
+
+
+    </body>
+</html>
